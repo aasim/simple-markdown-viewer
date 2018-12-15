@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.css"
+    />
+    <script>
+      delete module.exports;
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="window.js"></script>
+  </head>
+  <body>
+    <div class="content" data-action="toggle">
+      <header class="title-bar-content" data-action="toggle">
+        <div id="title-bar">
+          <div id="title-bar-btns"><button id="close-btn">x</button></div>
+        </div>
+      </header>
+      <article class="markdown-body" id="mdBody"></article>
+    </div>
+  </body>
+</html>

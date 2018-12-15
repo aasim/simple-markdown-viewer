@@ -1,0 +1,49 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden !important;
+}
+
+button {
+  -webkit-app-region: no-drag;
+}
+
+#title-bar-btns {
+  -webkit-app-region: no-drag;
+  position: fixed;
+  top: 6px;
+  right: 6px;
+}
+
+.title-bar-content {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  -webkit-app-region: drag;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-app-region: no-drag;
+}
+
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  margin: 0 auto;
+  padding: 45px;
+}
+
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
+}

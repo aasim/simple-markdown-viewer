@@ -1,0 +1,17 @@
+{
+  "name": "markdown-viewer",
+  "version": "0.0.1",
+  "description": "A simple Markdown viewer.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Aasim Malladi",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.12"
+  },
+  "dependencies": {
+    "markdown": "^0.5.0"
+  }
+}
